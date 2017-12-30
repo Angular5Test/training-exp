@@ -19,6 +19,7 @@ import { EngineeringsMasterService } from "./engineManMaster-data";
     ])
   ],
   declarations: [EngineeringManagementHomeComponent, EngineeringBtnComponent, DateFormatPipe],
+  
   providers: [EngineeringsMasterService]
 })
 export class EngineeringManagementModule { }
